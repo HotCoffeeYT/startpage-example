@@ -1,0 +1,54 @@
+body {
+	display: flex;
+	flex-direction: column;
+	margin: 0;
+	padding: 0;
+	font-family: "gg sans Normal", serif;
+}
+
+.header {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #001C35;
+}
+
+.headerlinks {
+	display: flex;
+	gap: 1rem;
+}
+
+.headerlinks a {
+	text-decoration: none;
+	color: white;
+}
+
+.headerlogo {
+	width: 50px;
+	height: auto;
+}
+
+.herocontent {
+	display: flex;
+	justify-content: space-evenly;
+	background-color: #001C35;
+
+}
+
+.herotext {
+	width: 500px;
+	color: white;
+	align-self: center;
+}
+
+.herotext h1 {
+	font-weight: bold;
+	font-size: 50px;
+}
+
+.heroimage {
+	width: 300px;
+}
+
+.infoheader {
+	align-self: center;
+}
