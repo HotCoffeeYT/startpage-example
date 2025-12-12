@@ -107,20 +107,18 @@ body {
 	align-self: center;
 	display: flex;
 	position: relative;
+	gap: 5rem;
 	width: 100%;
 	align-items: center;
 	justify-content: center;
 	text-align: center;
 	font-size: 24px;
-	background-color: #001C35; 
+	background-color: #001C35;
 	color: white;
+
 }
 
-.jellyfish img {
-	margin: 50px;
-	border-radius: 25px;
-	max-width: 100%;
-}
+
 
 .calf {
 	display: flex;
