@@ -113,11 +113,61 @@ body {
 	justify-content: center;
 	text-align: center;
 	font-size: 24px;
-	background-color: #001C35;
-	color: white;
+
 
 }
 
+
+.jellybutton {
+	padding: 12px;
+	width: 300px;
+	height: 300px;
+	border-radius: 10px;
+	background-size: 200% 200%;
+	background: linear-gradient(90deg,
+	#6FA5CE 0%,
+	#6DA2D7 10%,
+	#6B9FE0 20%,
+	#699CE8 30%,
+	#6799F1 40%,
+	#7CB79A 50%,
+	#7AB4A3 60%,
+	#78B1AB 70%,
+	#76AEB4 80%,
+	#74ABBD 90%,
+	#72A8C6 100%);
+	animation-name: jelly;
+	animation-duration: 10s;
+	animation-iteration-count: infinite;
+	animation-direction: alternate;
+	border: 1px solid #1CFF7A;
+	display: inline-block;
+	text-align: center;
+	box-shadow: 0 9px #999;
+}
+
+.jellybutton img {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.jellybutton:active {
+	box-shadow: 0 5px #666;
+	transform: translateY(4px);
+}
+
+
+@keyframes jelly
+{
+	100%
+	{
+		background-position: 4000px;
+
+	}
+}
 
 
 .calf {
